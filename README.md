@@ -1,1 +1,4 @@
 # PRODIGY_SD_04
+he Sudoku Solver is a C++ program designed to solve Sudoku puzzles of standard 9x9 grid size. It implements the backtracking algorithm, a brute-force technique, to systematically explore possible solutions by trying different numbers in the empty cells. The solver checks the feasibility of placing a number at a specific position by ensuring it doesn't violate the rules of Sudoku, such as not having the same number in the same row, column, or sub-grid (3x3).
+
+The program iterates through the puzzle, attempting to fill in the missing numbers using a recursive approach. If a solution exists, it displays the completed Sudoku grid; otherwise, it notifies when no solution is possible for the given puzzle. The solver can handle various unsolved Sudoku puzzles by inputting them as a 9x9 grid with empty cells represented by 0. Users can customize their Sudoku puzzles within the provided code for solving specific challenges.
